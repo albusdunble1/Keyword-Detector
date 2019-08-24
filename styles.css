@@ -2,3 +2,9 @@
     background-color: lime !important;
     color: black !important;
 } */
+
+@keyframes color-change {
+    0% { color: blue; }
+    50% { color: red; }
+    100% { color: blue; }
+}
