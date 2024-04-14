@@ -2,7 +2,7 @@ keywords = ['lol', 'haha', 'lmao', '?', 'why', 'what', 'how', 'when', 'where']
 
 setInterval(function(){ 
     for (i = 0; i < keywords.length; i++){
-        $(`.text-fragment:contains(${keywords[i]})`).css({
+        $(`.text-token:contains(${keywords[i]})`).css({
             "font-size": "2.5em",
             "font-weight": "600",
             "animation": "color-change 2s infinite"
